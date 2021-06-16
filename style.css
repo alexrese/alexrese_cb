@@ -7,3 +7,15 @@ body{
     color: #110f16 !important;
 }
 
+.container-menu{
+    border-radius: 10px;
+}
+
+.postcard__img{
+    opacity: 0.7;
+}
+
+.postcard__img:hover{
+    opacity: 0.9;
+}
+
