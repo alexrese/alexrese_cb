@@ -1,6 +1,7 @@
 body{
     background: rgb(33,37,41);
     background: linear-gradient(135deg, rgba(33,37,41,1) 0%, rgba(17,15,22,1) 100%);
+    
 }
 
 .social-media li a {
@@ -17,5 +18,17 @@ body{
 
 .postcard__img:hover{
     opacity: 0.9;
+}
+
+#sobre{
+    background-color: #fff;
+}
+
+#sobre .card{
+    background-color: #26045B;
+}
+
+#sobre img{
+    margin-left: -100px;
 }
 
