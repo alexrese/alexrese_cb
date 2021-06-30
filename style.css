@@ -1,7 +1,7 @@
 body{
     background: rgb(33,37,41);
     background: linear-gradient(135deg, rgba(33,37,41,1) 0%, rgba(17,15,22,1) 100%);
-    
+    font-family: 'Quicksand', sans-serif;
 }
 
 .social-media li a {
@@ -30,5 +30,15 @@ body{
 
 #sobre img{
     margin-left: -100px;
+    border-radius: 35px;
+}
+
+#sobre .card-title{
+    font-size: xx-large;
+}
+
+#sobre .card-text{
+    font-size: larger;
+    text-align: justify;
 }
 
