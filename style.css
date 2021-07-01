@@ -36,6 +36,11 @@ body {
     /* color: #26045B; */
 }
 
+#parceiros {
+    background-color: #fff;
+    color: #262626;
+}
+
 
 @media (min-width:320px), (max-width: 1280px) {
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
