@@ -1,6 +1,6 @@
-body{
-    background: rgb(33,37,41);
-    background: linear-gradient(135deg, rgba(33,37,41,1) 0%, rgba(17,15,22,1) 100%);
+body {
+    background: rgb(33, 37, 41);
+    background: linear-gradient(135deg, rgba(33, 37, 41, 1) 0%, rgba(17, 15, 22, 1) 100%);
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -8,37 +8,70 @@ body{
     color: #110f16 !important;
 }
 
-.container-menu{
+.container-menu {
     border-radius: 10px;
 }
 
-.postcard__img{
+.postcard__img {
     opacity: 0.7;
 }
 
-.postcard__img:hover{
+.postcard__img:hover {
     opacity: 0.9;
 }
 
-#sobre{
+#sobre {
     background-color: #fff;
 }
 
-#sobre .card{
+#sobre .card {
     background-color: #26045B;
 }
 
-#sobre img{
-    margin-left: -100px;
-    border-radius: 35px;
+#contato section i {
+    font-size: 32px;
 }
 
-#sobre .card-title{
-    font-size: xx-large;
+#contato .btn-outline-light{
+    /* color: #26045B; */
 }
 
-#sobre .card-text{
-    font-size: larger;
-    text-align: justify;
+
+@media (min-width:320px), (max-width: 1280px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    #sobre img {
+        margin: 0;
+    }
+
+    #sobre .card-text {
+        font-size: small;
+        text-align: justify;
+        padding: 0 !important;
+    }
+    
+    #sobre .card-title {
+        font-size: x-large;
+        padding: 0 !important;
+    }
+    
 }
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+    #sobre img {
+        margin-left: -100px;
+        border-radius: 35px;
+    }
+
+    #sobre .card-text {
+        font-size: larger;
+        text-align: justify;
+    }
+    
+    #sobre .card-title {
+        font-size: xx-large;
+    }
+    
+}
+
 
